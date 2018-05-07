@@ -1,0 +1,39 @@
+<app>
+	
+    <mvc>		
+		<ctrl>controller.loginController</ctrl>
+		<ctrl-url>/loginController</ctrl-url>
+		<view>/WEB-INF/classes/controller/loginController.java</view>
+	</mvc>
+	<mvc>	
+		<ctrl>controller.successpage</ctrl>
+		<ctrl-url>/success</ctrl-url>
+		<view>/WEB-INF/view/success.jsp</view>
+	</mvc>
+    
+    <mvc>		
+		<ctrl>controller.Login</ctrl>
+		<ctrl-url>/login</ctrl-url>
+		<view>/WEB-INF/view/login.jsp</view>
+	</mvc>
+	<mvc>		
+		<ctrl>controller.regiOne</ctrl>
+		<ctrl-url>/registration</ctrl-url>
+		<view>/WEB-INF/view/registration.html</view>
+	</mvc>
+	<mvc>		
+		<ctrl>controller.formOneSubmit</ctrl>
+		<ctrl-url>/formValidationPart1</ctrl-url>
+		<view>/WEB-INF/view/formValidationPart1.jsp</view>
+	</mvc>
+	<mvc>		
+		<ctrl>controller.registrationController</ctrl>
+		<ctrl-url>/rgValidation</ctrl-url>
+		<view>/WEB-INF/classes/controller/registrationController.java</view>
+	</mvc>
+	<mvc>		
+		<ctrl>controller.logOutSender</ctrl>
+		<ctrl-url>/logOut</ctrl-url>
+		<view>/WEB-INF/view/logOut.jsp</view>
+	</mvc>
+</app>
